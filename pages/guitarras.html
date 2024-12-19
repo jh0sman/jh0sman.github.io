@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/guitarraStyles.css">
+    <title>Electroacústicas y Acústicas</title>
+</head>
+<body>
+    <header> 
+        <h1>Guitarras</h1> 
+        <a href="carrito.html" class="icono-carrito">🛒 <span id="contador-carrito">0</span></a>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="/pages/amplificadores.html">Amplificadores</a></li>
+                <li><a href="/pages/pedales-accesorios.html">Efectos</a></li>
+            </ul>
+        </nav>
+
+    </header> 
+
+    
+    
+
+        <section id="productos" class="productos">
+
+            <article class="producto">
+                <img src="../img/sg.jpg" alt="Guitarra 1"> 
+                <h2>Marca: Gibson</h2> 
+                <p>Modelo: SG</p> 
+                <p>Precio: $1200</p> 
+                <button onclick="agregarAlcarrito('Gibson - SG', 1200)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/ibanez.jpg" alt="Guitarra 2"> 
+                <h2>Marca: Ibanez</h2> 
+                <p>Modelo: S Prestige</p> 
+                <p>Precio: $3200</p>
+                <button onclick="agregarAlcarrito('Ibanez - S Prestige', 3200)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/e335.jpg" alt="Guitarra 3"> 
+                <h2>Marca: Gibson</h2> 
+                <p>Modelo: E335</p> 
+                <p>Precio: $1450</p> 
+                <button onclick="agregarAlcarrito('Gibson - E335', 1450)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/jackson.jpg" alt="Guitarra 4"> 
+                <h2>Marca: Jackson</h2> 
+                <p>Modelo: Dinky</p> 
+                <p>Precio: $970</p>  
+                <button onclick="agregarAlcarrito('Jackson - Dinky',970)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/lesPaul.jpg" alt="Guitarra 5"> 
+                <h2>Marca: Gibson</h2> 
+                <p>Modelo: Les Paul</p> 
+                <p>Precio: $3300</p>  
+                <button onclick="agregarAlcarrito('Gibson - Les Paul',3300)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/prs.jpg" alt="Guitarra 6"> 
+                <h2>Marca: Paul Reed Smith</h2> 
+                <p>Modelo: P22</p> 
+                <p>Precio: $4290</p>   
+                <button onclick="agregarAlcarrito('Paul Reed Smith - P22',4290)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/strat.jpg" alt="Guitarra 7"> 
+                <h2>Marca: Fender</h2> 
+                <p>Modelo: Stratocaster</p>  
+                <p>Precio: $2500</p>   
+                <button onclick="agregarAlcarrito('Fender - Stratocaster',2500)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/tele.jpg" alt="Guitarra 8"> 
+                <h2>Marca: Fender</h2> 
+                <p>Modelo: Telecaster</p>  
+                <p>Precio: $2100</p>   
+                <button onclick="agregarAlcarrito('Fender - Telecaster',2100)">Agregar</button>
+            </article>
+
+            <article class="producto">
+                <img src="../img/vh.jpg" alt="Guitarra 9"> 
+                <h2>Marca: Frankenstrat</h2> 
+                <p>Modelo: Eddie Van Halen</p>   
+                <p>Precio: $2700</p>   
+                <button onclick="agregarAlcarrito('Bogner - Gold Finger',770)">Agregar</button>
+            </article>
+
+        </section>
+
+
+
+    <footer> 
+        
+    </footer>
+    <script src="../javascript/ampliScript.js"></script>
+</body>
+</html>
